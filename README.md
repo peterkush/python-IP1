@@ -1,5 +1,4 @@
-##TTTLE 
-
+## Name of the project
 password locker
 
 ## DEVELOPER
@@ -15,16 +14,16 @@ not forgetting  how to negerate  them in a random manner
 
 python3
 
-## BUGS
+## Bugs
 
 The project is not fully functionable 
 
-## COLLABORATION
+## Collaboration
 
 for any assistance mail me at;
 pkungu004@gmail.com
 
-## FEATURES OF THE PROJECT
+## Features of the project
 
 1 Login 
 2 Create new account for user
@@ -36,11 +35,11 @@ pkungu004@gmail.com
 
 
 ## Setup/Installation requirements
-Clone or download and unzip the repository from github
+Clone the repository from github link https://github.com/peterkush/python-IP1
 
 
 cd into the project folder and open in the text editor code.
 
-Run command run.py to lauch the project
+Run command script.py to lauch the project
 
 
