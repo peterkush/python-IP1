@@ -31,7 +31,7 @@ def main():
     user_name = input("Enter your name..")
     print(f"Hello {user_name},welcome  to password locker")
     print("\n")
-    ask = input(f"Hello { user_name} .Do you have an account ? YES?NO ..").lower()
+    ask = input(f"Hi..! { user_name} .Do you have an account ? YES?NO ..").lower()
     if ask == "no":
         print("Sign in to password locker")
         user_name = input("Enter your name..") 
@@ -109,13 +109,6 @@ def main():
 
         else:
                         print("please check your entry")
-
-
-
-
-
-
-
 
 
 
