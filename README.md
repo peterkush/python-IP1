@@ -1,29 +1,30 @@
-## Name of the project
+##
+
 password locker
 
-## Developer
+## DEVELOPER
 Peter Kung'u 
 
-## App description
+## APP DESCRIPTION
 
 is a project that allows users to store various account  password under one roof 
 not forgetting  how to negerate  them in a random manner
 
 
-## Technology used
+## TECHNOLOGY USED 
 
 python3
 
-## Bugs
+## BUGS
 
 The project is not fully functionable 
 
-## Collaboration
+## COLLABORATION
 
 for any assistance mail me at;
 pkungu004@gmail.com
 
-## Features of the project
+## FEATURES OF THE PROJECT
 
 1 Login 
 2 Create new account for user
@@ -35,7 +36,7 @@ pkungu004@gmail.com
 
 
 ## Setup/Installation requirements
-Clone the repository from github link https://github.com/peterkush/python-IP1
+Clone or download and unzip the repository from github
 
 
 cd into the project folder and open in the text editor code.

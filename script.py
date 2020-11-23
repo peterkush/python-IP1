@@ -29,7 +29,7 @@ def display_credential():
 
 def main():
     user_name = input("Enter your name..")
-    print(f"Hello {user_name},welcome  to password locker")
+    print(f"Hi..!{user_name},welcome  to password locker")
     print("\n")
     ask = input(f"Hi..! { user_name} .Do you have an account ? YES?NO ..").lower()
     if ask == "no":
@@ -55,7 +55,7 @@ def main():
                            print("Account.....")
                            account = input(">")
 
-                           print("usename....")
+                           print("username....")
                            account_username = input(">")
 
                            print("Enter password")
@@ -105,7 +105,7 @@ def main():
 
         elif short_code == "ex":
                         print("logged out")
-                         #exit
+                        
 
         else:
                         print("please check your entry")
