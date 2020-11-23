@@ -1,16 +1,16 @@
 ## Name of the project
 password locker
 
-## DEVELOPER
+## Developer
 Peter Kung'u 
 
-## APP DESCRIPTION
+## App description
 
 is a project that allows users to store various account  password under one roof 
 not forgetting  how to negerate  them in a random manner
 
 
-## TECHNOLOGY USED 
+## Technology used
 
 python3
 
