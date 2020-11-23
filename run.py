@@ -26,3 +26,17 @@ def check_existing_credential(account_username):
 def display_credential():
     return Credential.display_all_credential()
 
+
+def main():
+    user_name = input("Enter your name..")
+    print(f"Hello {user_name},welcome  to password locker")
+    print("\n")
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()
