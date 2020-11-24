@@ -29,49 +29,49 @@ class TestUser(unittest.Testcase):
             self.assertEqual(len(User.user_list), 1)
 class TestCredential(unittest.TestCase)
     def setUp(self):       
-                self.new_credential = credential("facebook", "Mr .V", "2323")
+            self.new_credential = credential("facebook", "Mr .V", "2323")
     def tearDown(self):       
-                Credential.credential_list = []
+            Credential.credential_list = []
     def test_init(self):      
-                        self.assertEqual(self.new_credential.account, "facebook")
-                        self.assertEqual(self.new_credential.account_username, "Mr .v")
-                        self.assertEqual(self.new_credential.account_password, "2323")
+             self.assertEqual(self.new_credential.account, "facebook")
+             self.assertEqual(self.new_credential.account_username, "Mr .v")
+             self.assertEqual(self.new_credential.account_password, "2323")
 
     def test_save_credential(self):      
-                        self.new_credential.save_credential()
-                        self.assertEqual(len(Credential.credential_list), 1)
+             self.new_credential.save_credential()
+             self.assertEqual(len(Credential.credential_list), 1)
 
     def test_save_multiple_credential(self):       
-                        test_credential = credential("twitter", "Mwaura", "1111")
-                        test_credential.save_credential()
-                        self.assertEqual(len(Credential.credential_list), 2)
+             test_credential = credential("twitter", "Mwaura", "1111")
+             test_credential.save_credential()
+             self.assertEqual(len(Credential.credential_list), 2)
 
 
                 
     def test_delete_credential(self):       
-                        self.new_credential.save_credential(self)
-                        test_credential = credential("twitter", "Mwaura", "1111")
-                        test_credential.save_credential()
+             self.new_credential.save_credential(self)
+             test_credential = credential("twitter", "Mwaura", "1111")
+             test_credential.save_credential()
 
-                self.new_credential.delete_credential()
-                self.assertEqual(len(Credential.credential_list), 1)
+             self.new_credential.delete_credential()
+             self.assertEqual(len(Credential.credential_list), 1)
     def test_find_credential_by_account_username(self):     
-                self.new_credential.save_credential()
-                test_credential = Credential("facebook", "peter", "4545")
-                test_credential.save_credential()
-                found_credential = credential.find_by_account_username("peter")
-                self.assertEqual(found_credential.account_password, test_credential.account_password)
+             self.new_credential.save_credential()
+             test_credential = Credential("facebook", "peter", "4545")
+             test_credential.save_credential()
+             found_credential = credential.find_by_account_username("peter")
+             self.assertEqual(found_credential.account_password, test_credential.account_password)
                 
     def test_credential_exists(self):     
-                self.new_credential.save_credential()
-                test_credential = Credential("facebook", "peter", "4545")
-                test_credential.save_credential()
-                credential_exists = Credential.credential_exists("peter")
-                self.assertTrue(test_credential_exists)
+            self.new_credential.save_credential()
+            test_credential = Credential("facebook", "peter", "4545")
+            test_credential.save_credential()
+            credential_exists = Credential.credential_exists("peter")
+            self.assertTrue(test_credential_exists)
 
 
     def test_display_all_credentials(self):      
-                self.assertEqual(Credential.display_credentials(),Credential.credential_list)
+            self.assertEqual(Credential.display_credentials(),Credential.credential_list)
 
 
 
