@@ -40,6 +40,6 @@ Clone the repository from github
 
 cd into the project folder and open in the text editor code.
 
-Run command script.py to lauch the project
+Run command run.py to lauch the project
 
 
