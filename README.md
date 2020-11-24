@@ -1,43 +1,42 @@
-##
-
+## The Name of the software
 password locker
 
-## DEVELOPER
+## Developer
 Peter Kung'u 
 
-## APP DESCRIPTION
+## App description
 
 is a project that allows users to store various account  password under one roof 
 not forgetting  how to negerate  them in a random manner
 
 
-## TECHNOLOGY USED 
+## Technology used 
 
 python3
 
-## BUGS
+## Bugs
 
 The project is not fully functionable 
 
-## COLLABORATION
+## Collaboration
 
 for any assistance mail me at;
 pkungu004@gmail.com
 
-## FEATURES OF THE PROJECT
+## Features of the project
 
-1 Login 
-2 Create new account for user
-3 Generate passwords
-4 Generate new password
-5 Display the saved passwords for the user
-6 Delete cridential
-7 Exit the page after you done
+~ Login 
+~ Create new account for user
+~ Generate passwords
+~ Generate new password
+~ Display the saved passwords for the user
+~ Delete cridential
+~ Exit the page after you done
 
 
 ## Setup/Installation requirements
-Clone or download and unzip the repository from github
-
+Clone the repository from github
+ https://github.com/peterkush/python-IP1
 
 cd into the project folder and open in the text editor code.
 

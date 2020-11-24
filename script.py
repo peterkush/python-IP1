@@ -66,8 +66,9 @@ def main():
                            print("\n")
                            print(f"New Credential {account} {account_username} {account_password} has been created")
                            print("\n")
-        elif short_code == "gp":
+             elif short_code == "gp":
                         print("Please enter the account you want to generate password for > ")
+                
                         social_media = input("Enter account type > ")
 
                         def random_password(string_length):
@@ -76,7 +77,7 @@ def main():
 
                         print(f"Your random password for {social_media} is:", random_password(8))
 
-        elif short_code == "dc":
+          elif short_code == "dc":
                         if display_credential():
                             print("Here is a list of credentials and password")
                             print("\n")
