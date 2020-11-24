@@ -3,15 +3,23 @@ from password import User ,Credential
 
 class TestUser(unittest.Testcase):
     def setUp(self):
+            """set up method to run before each test cases.
+            """
         self.new_user =('peter', '4545`')
 
     def tearDown(self) :   
 
             User.User_list = []
     def test_init(self):
+            """
+            test __init test case to test if the object is initialized properly
+            """
             self.assertEqual(self.new_user.name, "peter")
             self.assertEqual(self.new_user.user_password, "4545")
     def test_save_user(self):
+            """
+            test_save_user test case to test if the contact object is saved into the user list
+            """
             self.new_user.save_user()
             self.assertEqual(len(User.user_list),1)
         
@@ -41,7 +49,11 @@ class TestCredential(unittest.TestCase)
              self.new_credential.save_credential()
              self.assertEqual(len(Credential.credential_list), 1)
 
-    def test_save_multiple_credential(self):       
+    def test_save_multiple_credential(self):   
+             '''
+             test_save_multiple_credential to check if we can save multiple contact
+             objects to our credential_list
+             '''    
              test_credential = credential("twitter", "Mwaura", "1111")
              test_credential.save_credential()
              self.assertEqual(len(Credential.credential_list), 2)
